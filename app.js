@@ -65,7 +65,7 @@ app.post("/",function(req,res){
  //console.log(firstName,lastName,email);
 //});
 
-app.listen(3000,function(respond){
+app.listen(process.env.PORT || 3000,function(){
   console.log("server running at port 3000");
 });
 
