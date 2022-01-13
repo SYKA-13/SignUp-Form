@@ -34,9 +34,11 @@ body {
 .middle{
   border-radius: 0;
     margin-bottom: -1px;
+    
 }
 .bottom {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+
 }
