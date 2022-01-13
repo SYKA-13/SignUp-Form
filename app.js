@@ -24,7 +24,7 @@ app.post("/",function(req,res){
        merge_fields:{
          FNAME: firstName,
          LNAME:lastName,
-         BIRTHDAY:bday,
+        // BIRTHDAY:bday
        }
      }
    ]
